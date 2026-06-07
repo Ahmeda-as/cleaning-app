@@ -19,7 +19,16 @@
       "package": "com.clea.CleanStation"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "head": [
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "google-site-verification",
+            "content": "pW9hY35wtczuCoyHkKR9x7njn5a-EIROomDYu7qTKXg"
+          }
+        }
+      ]
     },
     "extra": {
       "eas": {
