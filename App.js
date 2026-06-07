@@ -43,7 +43,7 @@ export default function App() {
       <ScrollView contentContainerStyle={styles.contentPadding}>
         <TouchableOpacity onPress={() => setScreen('Home')}><Text style={styles.backLink}>← Back</Text></TouchableOpacity>
         <Text style={styles.mainTitle}>{selectedService.title}</Text>
-        <Text style={styles.priceText}>Starting from 35 SAR / Hr</Text>
+        
         <Text style={styles.label}>About the Service</Text>
         <Text style={styles.subText}>{selectedService.desc}</Text>
         <Text style={styles.sectionLabel}>What is Included?</Text>
